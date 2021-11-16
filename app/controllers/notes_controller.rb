@@ -15,7 +15,7 @@ class NotesController < ApplicationController
 
   def show
     @note = Note.find(params[:id])
-    render component: "oneNote", props: {note:@note}
+    render component: "oneNote", props: {note: @note}
   end
 
 

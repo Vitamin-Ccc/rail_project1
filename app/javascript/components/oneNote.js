@@ -1,7 +1,6 @@
 import React from "react";
-import { PROPS_ATTR } from "react_ujs";
 
-const oneNote = () => {
+const oneNote = (props) => {
   return (
     <div>
       <h1>{props.note.title}</h1>
